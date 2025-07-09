@@ -1,2 +1,2 @@
 # kaynnsc.github.io
-My Website
+UI/UX Portofolio - Undergraduate Student in Information Systems
