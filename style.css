@@ -368,43 +368,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
-  .hero-title {
-    font-size: 2rem;
-  }
 
-  .about-url-text {
-    font-size: 1rem;
-  }
-
-  .skill-tag {
-    padding: 0.3rem 0.8rem;
-    font-size: 0.8rem;
-  }
-
-  .works-gallery {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .hero-title {
-    font-size: 1.75rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-
-  .about-url-text {
-    font-size: 0.9rem;
-  }
-
-  .skill-tag {
-    padding: 0.2rem 0.6rem;
-    font-size: 0.7rem;
-  }
-}
 
 /* Respect user's motion preferences */
 @media (prefers-reduced-motion: no-preference) {
