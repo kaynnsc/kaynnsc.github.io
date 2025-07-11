@@ -17,10 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-head {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background-color: var(--color-background);
@@ -305,8 +301,37 @@ body {
   margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+  .works-gallery-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
-/* Respect user's motion preferences */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-right {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .hero-yes,
+  .hero-role {
+    position: static;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* scroll */
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
