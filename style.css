@@ -75,7 +75,7 @@ body {
   position: relative;
   height: 280px;
   overflow: hidden;
-  background-image: url("https://files.catbox.moe/z7iv93.png");
+  background-image: url("https://imgur.com/lDFwN1d.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -337,3 +337,4 @@ body {
     scroll-behavior: smooth;
   }
 }
+
